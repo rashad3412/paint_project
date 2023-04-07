@@ -1,0 +1,182 @@
+body {
+    width: 95%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+
+
+.background{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    /* border: solid black; */
+    
+}
+
+.child{
+    background-color: teal;
+    width: 100%;
+    height: 213px; 
+    margin: 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    /* border: solid black; */
+    
+}
+
+.child2 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: teal;
+    width: 100%;
+    height: 400px; 
+    margin: 10px;
+}
+
+form{
+    color: aliceblue;
+    padding: 10px;
+ }
+
+.footer{
+    display: flex;
+    flex-direction: row;    
+}
+
+.child3{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(39, 197, 181, 0.78);
+    width: 100%;
+    height: 20px; 
+    margin: 10px;
+}
+
+.background #circle{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    padding: 20px;
+    height: 5px;
+    width: 5px;
+    background-color:  rgba(237, 132, 120, 0.962);
+    border-radius: 150%;
+
+}
+.background #circle2{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    padding: 20px;
+    height: 5px;
+    width: 5px;
+    background-color:  rgba(237, 132, 120, 0.962);
+    border-radius: 150%;
+
+}
+.background #circle3{
+    position: absolute;
+    top: 125px;
+    left: 145px;
+    padding: 30px;
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 150%;
+
+}
+.background #circle4{
+    position: absolute;
+    top: 75px;
+    left: 285px;
+    padding: 25px;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 150%;
+
+}
+
+ .background #triangle1{
+    position: absolute;
+    top: 293px;
+    left: 475px;
+    width: 0px;
+    height: 0px;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    border-bottom: 350px solid rgba(39, 209, 101, 0.663);
+    
+ }
+ .background #triangle2{
+    position: absolute;
+    top: 293px;
+    left: 600px;
+    width: 0px;
+    height: 0px;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    border-bottom: 350px solid rgb(37, 239, 188);
+    
+ }
+
+ .background #diamond1{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.697);
+    transform: rotate(45deg);
+    margin: 50px; 
+
+}
+ .background #diamond2{
+    position: absolute;
+    top: 500px;
+    left: 225px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.697);
+    transform: rotate(45deg);
+    margin: 50px; 
+
+}
+ .background #diamond3{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.697);
+    transform: rotate(45deg);
+    margin: 50px; 
+
+}
+ .background #diamond4{
+    position: absolute;
+    top: 500px;
+    left: 75px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.697);
+    transform: rotate(45deg);
+    margin: 50px; 
+
+}
+ .background #diamond5{
+    position: absolute;
+    top: 500px;
+    left: -3px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.697);
+    transform: rotate(45deg);
+    margin: 50px; 
+
+}
